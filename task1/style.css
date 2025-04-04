@@ -1,0 +1,24 @@
+.boxs {
+width: 100pX;
+height: 100px;
+color: white;
+border-radius: 50%;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box{
+display: flex;
+}
+
+.lemon {
+background-color:  yellow;
+}
+.apple{
+background-color: red;
+}
+.orange {
+background-color: orange;
+}

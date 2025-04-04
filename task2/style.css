@@ -1,0 +1,25 @@
+.card {
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.number {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+

@@ -1,0 +1,15 @@
+table {
+
+    width: 50%;
+    
+   
+    border: 2px solid palevioletred;
+
+    tr {
+        border: 2px solid palevioletred;
+    }
+    td {
+        border: 2px solid palevioletred;
+    }
+    
+}

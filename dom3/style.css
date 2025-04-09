@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    user-select: none;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    margin: auto;
+    max-width: 95vw;
+  }
+  
+  nav {
+    display: grid;
+    gap: 50px;
+    align-items: center;
+    height: 90px;
+    grid-template-columns: 300px auto 300px;
+  }
+  
+  .logo img {
+    width: 250px;
+  }
+  
+  .links ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .links a {
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .conctactBtn {
+    padding: 12px 20px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid orange;
+    background-color: orange;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .mainDropItem {
+    width: 80px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .dropdownMenu {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dropList {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  
+  .show {
+    opacity: 1;
+    height: fit-content;
+    visibility: visible;
+  }
+  
+  .dropList li {
+    margin: 5px 0;
+  }
+  
+  .arrow {
+    margin-left: 5px;
+  }
+  
+  .bars {
+    display: none;
+  }
+  
+  #bars {
+    cursor: pointer;
+  }
+  
+  .mobileMenu {
+    background-color: #ddd;
+    padding: 50px;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    width: 100%;
+    left: 100%;
+    top: 80px;
+    height: 100%;
+    transition: all 0.5s;
+  
+    ul {
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+    }
+  
+    a {
+      color: #000;
+    }
+  }
+  
+  .showMobile {
+    left: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .bars {
+      display: block;
+      text-align: right;
+      font-size: 30px;
+    }
+  
+    .buttons,
+    .links {
+      display: none;
+    }
+  
+    nav {
+      grid-template-columns: 300px 100px;
+      justify-content: space-between;
+    }
+  
+    .conctactBtn {
+      width: 200px;
+    }
+  
+    .mobileMenu {
+      display: flex;
+    }
+  }

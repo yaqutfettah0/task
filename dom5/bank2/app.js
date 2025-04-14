@@ -1,5 +1,5 @@
 const correctCard = "1234567812345678";
-const correctPin = "1234";
+const correctPin = "2004";
 let balance = 1000;
 
 const loginBtn = document.getElementById("loginBtn");

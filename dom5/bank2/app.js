@@ -40,5 +40,5 @@ withdrawMoney.addEventListener("click", () => {
 
 balance -= mebleg;
 sondakibalans.innerHTML = balance;
-withdrawMessage.innerHTML = `Uğurla ${mebleg} AZN çıxarıldı.`;
+withdrawMessage.innerHTML = `${mebleg} AZN çıxarıldı.`;
 });

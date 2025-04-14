@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Kartı</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h2>Bank Kartı Girişi</h2>
+
+  <div id="loginForm">
+    <input type="text" id="cardNumber" placeholder="Kart nömrəsi ">
+    <input type="password" id="pinCode" placeholder="PIN Kod">
+    <button id="loginBtn">Daxil ol</button>
+    <p id="loginMessage"></p>
+  </div>
+
+  <div id="menu" class="menu">
+    <h3>Bank Menyusu</h3>
+    <p>Balans: <span id="balance">1000</span> AZN</p>
+    <input type="number" id="withdrawAmount" placeholder="Çəkiləcək məbləğ">
+    <button id="withdrawMoney">Pul Çək</button>
+    <p id="withdrawMessage"></p>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

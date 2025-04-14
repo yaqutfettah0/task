@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./todo.css" />
+  </head>
+  <body>
+    <h1>Todo list</h1>
+
+    <form id="addTodoForm">
+      <input type="text" placeholder="yenisini elave et" id="TodoInp" />
+      <button>elave et</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>TODO</th>
+          <th>Is Completed</th>
+          <th>Events</th>
+        </tr>
+      </thead>
+
+      <tbody id="tbody"></tbody>
+    </table>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
